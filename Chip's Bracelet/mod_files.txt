@@ -2,4 +2,5 @@ add disk/sonic2013_patch_0/Sonic.pac
 add disk/sonic2013_patch_0/Sonic.pac.00
 add disk/sonic2013_patch_0/Supersonic.pac
 add disk/sonic2013_patch_0/Supersonic.pac.00
+delete disk/sonic2013_patch_0/Sonic.pac.01
 add mod.ini
