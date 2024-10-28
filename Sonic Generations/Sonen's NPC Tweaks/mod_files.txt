@@ -135,3 +135,4 @@ add disk/bb3/+evSonic.arl
 add disk/bb3/+Sonic.ar.00
 add disk/bb3/+Sonic.arl
 add mod.ini
+add NPCOptions.json
