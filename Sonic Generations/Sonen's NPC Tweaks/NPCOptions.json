@@ -1,0 +1,40 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Mod Options",
+      "Elements": [
+        {
+        "Name": "IncludeDir1",
+        "DisplayName": "Model Choice",
+        "Description": [
+          "Choose which game whose models you would like to use!"
+        ],
+        "Type": "Config",
+        "MinValue": null,
+        "MaxValue": null,
+        "DefaultValue": "DD"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "Config": [
+      {
+        "DisplayName": "Original (2011)",
+        "Value": "DD",
+        "Description": [
+          "This option loads the tweaked original models from the initial release!"
+        ]
+      },
+      {
+        "DisplayName": "Sonic X Shadow Generations",
+        "Value": "SxSG",
+        "Description": [
+          "This option loads tweaked versions of the NPC models that were altered in Sonic X Shadow Generations!"
+        ]
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
