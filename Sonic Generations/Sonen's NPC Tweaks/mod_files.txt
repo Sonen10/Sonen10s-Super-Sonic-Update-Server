@@ -134,5 +134,11 @@ add disk/bb3/+evSonic.ar.00
 add disk/bb3/+evSonic.arl
 add disk/bb3/+Sonic.ar.00
 add disk/bb3/+Sonic.arl
+add SxSG/disk/bb2/+shadow.ar.00
+add SxSG/disk/bb2/+shadow.arl
+add SxSG/disk/bb2/+evShadow.ar.00
+add SxSG/disk/bb2/+evShadow.arl
+add SxSG/disk/bb2/+bsd.ar.00
+add SxSG/disk/bb2/+bsd.arl
 add mod.ini
 add NPCOptions.json

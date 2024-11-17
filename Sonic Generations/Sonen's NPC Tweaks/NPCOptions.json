@@ -5,7 +5,7 @@
       "DisplayName": "Mod Options",
       "Elements": [
         {
-        "Name": "IncludeDir1",
+        "Name": "IncludeDir0",
         "DisplayName": "Model Choice",
         "Description": [
           "Choose which game whose models you would like to use!"
