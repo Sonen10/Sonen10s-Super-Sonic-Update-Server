@@ -1,0 +1,65 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Mod Options",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "Description": [
+            "Select which model mode you want to use!"],
+          "DisplayName": "Model Mode",
+          "Type": "ModelChoice",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "tokyo"
+        },
+		{
+          "Name": "IncludeDir1",
+          "Description": [
+            "Choose the cutscene compatability mode for Chip's Bracelet!"],
+          "DisplayName": "Chip's Bracelet - Cutscene Compatability",
+          "Type": "ChipInspireCompat",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "tokyoInspire"
+        },
+      ]
+    }
+  ],
+  "Enums": {
+    "ModelChoice": [
+      {
+        "DisplayName": "Standard",
+        "Value": "tokyo",
+        "Description": [
+          "The standard model; a tweaked version of Sonic's Unleashed appearance with shoes from his final Olympic trip!",
+        ]
+      },
+      {
+        "DisplayName": "Chip's Bracelet",
+        "Value": "chip",
+        "Description": [
+          "It may be a break in continuity, but it's one that resonates with many.",
+        ]
+      },
+    ],
+    "ChipInspireCompat": [
+      {
+        "DisplayName": "Enabled",
+        "Value": "chipInspire",
+        "Description": [
+          "It's full on double Chip ring all the way on Sonic's left wrist! It's even starting to look like a continuity error...",
+        ]
+      },
+      {
+        "DisplayName": "Disabled",
+        "Value": "tokyoInspire",
+        "Description": [
+          "Disables Chip's Bracelet during cutscenes. Reccomended when used with the Standard model mode, or you can pretend Sonic is wistfully looking back at his memories, tightly clutching the last momento left behind.",
+        ]
+      },
+    ],
+  },
+  "IniFile": "mod.ini"
+}
